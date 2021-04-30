@@ -1,0 +1,10 @@
+exclude **/__pychache__
+exclude **/.DS_Store
+exclude **.log
+exclude house_price_predictor/config/logging_config.py
+exclude house_price_predictor/config/logging_config.yaml
+
+include requirements.txt
+include README.md
+include house_price_predictor/datasets/*
+include house_price_predictor/trained_models/*

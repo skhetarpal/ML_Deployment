@@ -1,0 +1,14 @@
+Metadata-Version: 2.1
+Name: house-price-predictor-skhetarpal
+Version: 0.1.0
+Summary: An example package to demonstrate ML deployment
+Home-page: https://github.com/skhetarpal/ML_Deployment
+Author: Suraj Khetarpal
+Author-email: suraj.khetarpal@gmail.com
+License: UNKNOWN
+Description: # Description
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Requires-Python: >=3.6
+Description-Content-Type: text/markdown

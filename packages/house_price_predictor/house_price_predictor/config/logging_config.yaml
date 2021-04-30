@@ -1,0 +1,15 @@
+version: 1
+formatters:
+  formatter1:
+    format: "%(asctime)s — %(name)s — %(levelname)s — %(funcName)s:%(lineno)d — %(message)s"
+handlers:
+  handler1:
+    class: logging.StreamHandler
+    level: DEBUG
+    formatter: formatter1
+    stream: sys.stdout
+loggers:
+  logger:
+    level: DEBUG
+    handlers: [handler1]
+    propagate: no
