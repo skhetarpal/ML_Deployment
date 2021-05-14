@@ -1,1 +1,1 @@
-# ML_Deployment
+# Navigate to packages/house_price_predictor
