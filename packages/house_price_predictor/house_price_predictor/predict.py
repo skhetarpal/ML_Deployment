@@ -33,7 +33,7 @@ def predict_json(*, input_json: str) -> dict:
         f'Predictions: {preds}'
         )
     
-    response = {'predictions': preds}
+    response = {'predictions': preds, 'version': __version__}
     return response
 
 
