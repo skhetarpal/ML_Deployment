@@ -11,3 +11,6 @@ pytest==5.4.3
 # Packaging requirements
 setuptools>=42
 wheel
+
+# Data collection requirements
+kaggle == 1.5.1.1

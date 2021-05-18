@@ -1,0 +1,1 @@
+kaggle competitions download -c house-prices-advanced-regression-techniques -p packages/house_price_predictor/house_price_predictor/datasets/

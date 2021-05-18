@@ -1,7 +1,7 @@
-from api import factory, config
+from api import app_factory, config
 
 
-app = factory.create_app(settings = config.dev_config)
+app = app_factory.create_app(settings = config.dev_config)
 
 if __name__ == '__main__':
     app.run()

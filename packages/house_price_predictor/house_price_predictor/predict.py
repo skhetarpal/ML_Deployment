@@ -25,7 +25,7 @@ def predict_json(*, input_json: str) -> dict:
     
     data = pd.read_json(input_json)[config.IMPORTANT_FEATURES]
     data = filter_data._filter(data=data)
-    preds = pipeline_predict(data=data)
+    preds = list(pipeline_predict(data=data))
     
     _logger.info(
         f'Predicting using pipeline version: {__version__}. '
